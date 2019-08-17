@@ -1,0 +1,21 @@
+{
+  "name": "ssb-contact-schema",
+  "version": "1.0.0",
+  "description": "Schema for ssb contact types",
+  "scripts": {
+    "test": "tape '**/*.test.js' | tap-spec"
+  },
+  "author": "Anders Rune Jensen <arj03@protonmail.ch>",
+  "license": "Beerware",
+  "repository": "https://github.com/ssbc/ssb-contact-schema",
+  "dependencies": {
+    "is-my-json-valid": "^2.19.0",
+    "ssb-msg-content": "^1.0.1",
+    "ssb-ref": "^2.13.7",
+    "ssb-schema-definitions": "^1.1.5"
+  },
+  "devDependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1"
+  }
+}
